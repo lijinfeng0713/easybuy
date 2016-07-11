@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.gentlemen.easybuy.activity.RegisterActivity">
+
+    <EditText
+        android:id="@+id/register_username"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:inputType="text"
+        android:textColorHint="#01BBD4"
+        android:drawableLeft="@drawable/person"
+        android:hint="用户名"/>
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:textColorHint="#01BBD4"
+        android:drawableLeft="@drawable/ic_lock_lock"
+        android:inputType="textPassword"
+        android:hint="密码"/>
+    <EditText
+        android:id="@+id/passConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:drawableLeft="@drawable/ic_lock_lock"
+        android:textColorHint="#01BBD4"
+        android:inputType="textPassword"
+        android:hint="再次输入密码"/>
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:inputType="text"
+        android:textColorHint="#01BBD4"
+        android:hint="电话号码"/>
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:textColorHint="#01BBD4"
+        android:inputType="text"
+        android:hint="地址"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_login_selecter"
+        android:textColor="#FFF"
+        android:text="注册"/>
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="已有账号，前往登录"
+        android:textColor="#0000FF"/>
+
+</LinearLayout>
